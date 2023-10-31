@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import { Pizza } from "./components/Pizza";
 
 function App() {
-
   return (
     <>
-      <h1>TODO: Fast Pizza App</h1>
+      <Pizza />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
